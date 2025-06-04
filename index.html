@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Hanne Gladiné</title>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;600&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="bg-animation"></div>
+  <div class="soft-circles"></div>
   <header>
-    <h1>Portfolio van Hanne</h1>
+    <h1 class="float">Portfolio | Hanne Gladiné</h1>
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -19,20 +20,19 @@
       </ul>
     </nav>
   </header>
-
   <section id="home" class="centered-section">
     <h2>Welkom!</h2>
-    <p>Ik ben Hanne, student met een brede interesse in creatieve technologie en interactieve kunst. In mijn eigen werk combineer ik visueel ontwerp, digitale tools en fysieke media om ideeën tastbaar en ervaarbaar te maken. In dit portfolio ligt de focus op het tonen van mijn werk rond 3D-ontwerp en fysieke modellering, als onderdeel van een breder creatief proces waarin experiment en verkenning centraal staan.</p>
+    <p>Ik ben Hanne, een student met een brede interesse in creatieve technologie en interactieve kunst. In mijn eigen werk combineer ik visueel ontwerp, digitale tools en fysieke media om ideeën tastbaar en ervaarbaar te maken. In dit portfolio ligt de focus op het tonen van mijn werk rond 3D-ontwerp en fysieke modellering.</p>
   </section>
 
   <section id="skills" class="centered-section">
     <h2>Programma's en Vaardigheden</h2>
     <ul>
-      <li>Papierprototyping</li>
-      <li>Adobe Illustrator</li>
-      <li>Blender</li>
-      <li>TinkerCAD</li>
-      <li>FreeCAD</li>
+      <p>Papierprototyping</p>
+      <p>Adobe Illustrator</p>
+      <p>Blender</p>
+      <p>TinkerCAD</p>
+      <p>FreeCAD</p>
     </ul>
   </section>
 
@@ -63,7 +63,7 @@
         </a>
       </div>
       <h3>Cube Nachtlamp Design</h3>
-      <p>Een visuele poster met 3 variaties op het oorspronkelijke kubusidee.
+      <p>Een visuele poster met 3 variaties op het oorspronkelijke kubusidee.</p>
       <button onclick="toggleDetails('details2')">Meer info</button>
       <div id="details2" class="details" style="display: none;">
         <p>Deze presentatieposter toont drie varianten van een nachtlamp, gebaseerd op mijn papieren kubus. Elke variant heeft een eigen uitstraling en knopmechanisme:</p>
@@ -77,7 +77,7 @@
                 <img src="files/Images/Cube Night Light A3 illustrator.png" alt="kubus poster illustrator" class="p1Wider">
             </a>
         </div>
-        <p>Ik startte vanuit een kleurpalet en maakte daarmee de eerste poster. Deze versie bleek echter te druk en visueel onrustig:</p>
+        <p>Ik startte vanuit een kleurpalet en maakte daarmee de eerste poster. Deze versie bleek uiteindelijk veel te druk en visueel slordig:</p>
         <div class="image-row">
           <a href="files/Images/CUBE Night Light A3 poster 1.png" target="_blank">
               <img src="files/Images/CUBE Night Light A3 poster 1.png" alt="Kubus poster 1" class="p1Wider">
@@ -86,7 +86,7 @@
               <img src="files/Images/CUBE color palette 1.png" alt="Kubus kleurpalet 1" class="cpWider">
           </a>
         </div>
-        <p>Daarna ben ik opnieuw begonnen met een eenvoudiger kleurenpalet en een verticaler formaat dat beter past bij het uiteindelijke doel: een bushalte-advertentie.</p>
+        <p>Dus ben ik opnieuw begonnen met een eenvoudiger kleurenpalet en een verticaler formaat dat me beter leek passen op een billboard.</p>
         <div class="image-row">
           <a href="files/Images/CUBE Night Light A3 poster 2.png" target="_blank">
               <img src="files/Images/CUBE Night Light A3 poster 2.png" alt="Kubus poster 2">
@@ -95,7 +95,7 @@
               <img src="files/Images/CUBE color palette 2.png" alt="Kubus kleurpalet 2" class="cpWider">
           </a>
         </div>
-        <p>Het eindresultaat combineert visuele rust, duidelijkheid en een heldere presentatie van de verschillende varianten.</p>
+        <p>Het eindresultaat is veel rustiger, biedt duidelijkheid en een heldere presentatie van de verschillende varianten.</p>
         <div class="download-links">
           <a href="files/CubeNightLightPoster1HanneGladiné.pdf" download>Download de PDF-presentatie: poster 1</a>
           <a href="files/CubeNightLightPoster2HanneGladiné.pdf" download>Download de PDF-presentatie: poster 2</a>
@@ -104,22 +104,33 @@
     </article>
 
     <article>
-      <img src="placeholder_billboard_render.jpg" alt="3D Billboard render">
+      <div class="image-row">
+        <a href="files/Images/billboard.png" target="_blank">
+            <img src="files/Images/billboard.png" alt="billboard blender model" class="p1Wider">
+        </a>
+      </div>
       <h3>3D Billboard Scène (Blender)</h3>
       <p>Mijn eerste volledige 3D-render in een omgeving.</p>
       <button onclick="toggleDetails('details3')">Meer info</button>
       <div id="details3" class="details" style="display: none;">
-        <p>Een billboard gemonteerd in een 3D-straat. Gebruik gemaakt van texturen, verlichting en compositie in Blender. <br><a href="files/billboard-scene.blend" download>Download Blender-bestand</a></p>
+        <p>Een billboard gemonteerd in een 3D-straat. Gebruik gemaakt van texturen, verlichting en compositie in Blender.</p>
       </div>
     </article>
 
     <article>
-      <img src="placeholder_paper_billboard.jpg" alt="Papier billboard foto">
+      <div class="image-row">
+        <a href="files/Images/Paper box.jpg" target="_blank">
+            <img src="files/Images/Paper box.jpg" alt="Papieren prototype model 1" class="p1Wider">
+        </a>
+        <a href="files/Images/paper box2.jpg" target="_blank">
+            <img src="files/Images/paper box2.jpg" alt="Papieren prototype model 2" class="p1Wider">
+        </a>
+      </div>
       <h3>Papieren Prototype Billboard</h3>
       <p>Uitgeprinte en geplooide versie van mijn 3D Billboard.</p>
       <button onclick="toggleDetails('details4')">Meer info</button>
       <div id="details4" class="details" style="display: none;">
-        <p>Gebaseerd op mijn Blender-render heb ik het model omgezet naar een papieren versie met texturen. <br><a href="files/billboard-model.pdf" download>Download PDF (printbaar model)</a></p>
+        <p>Gebaseerd op mijn Blender-render heb ik het model omgezet naar een papieren versie met texturen.</p>
       </div>
     </article>
 
@@ -323,25 +334,40 @@
       <p><strong>Reflectie:</strong></p>
       <ul>
         <li>Het loont om snel low-fidelity versies te testen vooraleer in detail te werken.</li>
+        <li>Met onze eerste prototypes kunnen we beter meteen beginnen met al een echt product te maken in plaats van enkel alle onderdelen apart te testen.</li>
         <li>Hardwareproblemen zijn onvermijdelijk, het is belangrijk om flexibel te blijven en oplossingen te zoeken.</li>
         <li>De samenwerking en iteratiecycli gaven een realistischer beeld van hoe prototypes in de praktijk evolueren.</li>
       </ul>
+      <p><strong>Dus hoe werkt het?</strong></p>
+        <p>
+          Dit prototype helpt je om nooit meer je sleutels te vergeten. Het systeem bestaat uit een sleuteldoosje gekoppeld aan een kapstok. Zodra je iets aan de kapstok hangt (zoals een jas of tas), wordt een knop ingedrukt. Daardoor opent een servomotor automatisch het deurtje van de sleuteldoos: zo word je eraan herinnerd om je sleutels erin te leggen.
+        </p>
+        <p>
+          Als je daarna je jas weer weghaalt, komt de knop terug omhoog en opent het deurtje opnieuw. Tegelijk vangt een lichtsensor (photoresistor) nu licht op, waardoor een LED oplicht én een buzzer het melodietje <em>"Take On Me"</em> speelt. Zo krijg je een visuele en auditieve herinnering om je sleutels mee te nemen.
+        </p>
+        <p>
+          Wanneer je het deurtje daarna weer sluit, schakelen de LED en buzzer automatisch uit.
+        </p>
+
       <p><strong>Demonstratie:</strong></p>
       <div class="video-wrapper">
       <iframe width="356" height="634" src="https://www.youtube.com/embed/gGhdQ_d7Z_s" title="Why you need Fonky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
+      <div class="download-links">
+  <a href="files/ArduinoFonkyCode.zip" download>Download Arduino-code (Fonky)</a>
+</div>
     </div>
   </div>
 </section>
 
 
-  <section id="contact">
+  <section id="contact" class="centered-section">
     <h2>Contact</h2>
     <p>Wil je meer weten? Mail me op: <a href="mailto:hanne.gladine@student.kdg.be">hanne.gladine@student.kdg.be</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Hanne Gladiné | Portfolio</p>
+    <p class="float">2025 Hanne Gladiné | Portfolio</p>
   </footer>
   <script src="script.js"></script>
 </body>
