@@ -300,7 +300,10 @@
   <div class="proto-section">
     <button onclick="toggleDetails('final')">Eindproduct</button>
     <div id="final" class="details" style="display: none;">
-      <p>Een houten doos (geolied MDF) met verborgen elektronica en zwarte afwerking. Als je je jas eraan hangt gaat het deurtje open zodat je je sleutels erin kan steken en wanneer je een jas wegneemt, opent het doosje weer en activeert de photoresister een LED en buzzer (melodie: Take On Me) als geheugensteuntje. We hebben moeten testen hoe we de lasercutter moesten instellen om de juiste graveer diekten te hebben voor onze magneet en phototransistor.</p>
+      <h3>Wat is het?</h3>
+        <p>
+          Ons eindprototype is een geoliede MDF-doos met verborgen elektronica, gekoppeld aan een kapstok. Het systeem helpt je herinneren aan je sleutels wanneer je je jas meeneemt.
+        </p>
       <ul>
         <div class="image-row">
           <a href="files/Images/PROTOTYPE3 graveren.jpg" target="_blank">
@@ -327,27 +330,28 @@
                 title="Fonky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
         </div>
-        <li><strong>
-            Probleem:</strong> We konden niet zomaar vijzen in deze doos, wat we eigenlijk wel wisten maar nog niet echt over hadden nagedacht — opgelost met winkelhaken.
-        </li>
-      </ul>
-      <p><strong>Reflectie:</strong></p>
-      <ul>
-        <li>Het loont om snel low-fidelity versies te testen vooraleer in detail te werken.</li>
-        <li>Met onze eerste prototypes kunnen we beter meteen beginnen met al een echt product te maken in plaats van enkel alle onderdelen apart te testen.</li>
-        <li>Hardwareproblemen zijn onvermijdelijk, het is belangrijk om flexibel te blijven en oplossingen te zoeken.</li>
-        <li>De samenwerking en iteratiecycli gaven een realistischer beeld van hoe prototypes in de praktijk evolueren.</li>
-      </ul>
-      <p><strong>Dus hoe werkt het?</strong></p>
-        <p>
-          Dit prototype helpt je om nooit meer je sleutels te vergeten. Het systeem bestaat uit een sleuteldoosje gekoppeld aan een kapstok. Zodra je iets aan de kapstok hangt (zoals een jas of tas), wordt een knop ingedrukt. Daardoor opent een servomotor automatisch het deurtje van de sleuteldoos: zo word je eraan herinnerd om je sleutels erin te leggen.
-        </p>
-        <p>
-          Als je daarna je jas weer weghaalt, komt de knop terug omhoog en opent het deurtje opnieuw. Tegelijk vangt een lichtsensor (photoresistor) nu licht op, waardoor een LED oplicht én een buzzer het melodietje <em>"Take On Me"</em> speelt. Zo krijg je een visuele en auditieve herinnering om je sleutels mee te nemen.
-        </p>
-        <p>
-          Wanneer je het deurtje daarna weer sluit, schakelen de LED en buzzer automatisch uit.
-        </p>
+        <h3>Wat verbeterden we ten opzichte van eerdere versies?</h3>
+    <ul>
+      <li>Kantelsensor vervangen door een betrouwbare <strong>photoresistor</strong>.</li>
+      <li><strong>Graveertesten</strong> om de juiste dieptes te krijgen van de lasercutter om de photoresistor en magneten in te leggen en draadlijnen te trekken.</li>
+      <li>Problemen met vijzen opgelost met <strong>winkelhaken</strong>.</li>
+      <li>De hele doos kreeg een <strong>esthetische zwarte afwerking</strong>.</li>
+    </ul>
+      <h3>Hoe werkt het?</h3>
+    <p>
+      Wanneer je een jas aan de kapstok hangt, wordt een knop ingedrukt. Hierdoor opent een servomotor automatisch het deurtje van het sleuteldoosje, als visuele herinnering om je sleutels erin te leggen.
+    </p>
+    <p>
+      Neem je je jas weg? Dan laat de knop los, opent het deurtje opnieuw, en detecteert een photoresistor licht. Dit activeert een LED en een buzzer die het melodietje "Take On Me" speelt – een visuele en auditieve herinnering om je sleutels mee te nemen. Sluit je het deurtje weer, dan schakelen beide automatisch uit.
+    </p>
+
+      <h3>Reflectie</h3>
+    <ul>
+      <li>Snelle low-fidelity prototypes zijn nuttig om technische risico’s vroeg te ontdekken.</li>
+      <li>Een werkend geheel maken zou sneller inzicht geven dan losse componenttests.</li>
+      <li>Flexibel blijven bij hardwareproblemen is heel belangrijk.</li>
+      <li>Iteratiescyclussen en samenwerking gaven ons een beter inzicht in de relatieit van prototypen.</li>
+    </ul>
 
       <p><strong>Demonstratie:</strong></p>
       <div class="video-wrapper">
