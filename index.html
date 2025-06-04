@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Hanne Gladiné</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio van Hanne</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Vaardigheden</a></li>
+        <li><a href="#projects">Projecten</a></li>
+        <li><a href="#prototyping">Prototyping Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="centered-section">
+    <h2>Welkom!</h2>
+    <p>Ik ben Hanne, student met een brede interesse in creatieve technologie en interactieve kunst. In mijn eigen werk combineer ik visueel ontwerp, digitale tools en fysieke media om ideeën tastbaar en ervaarbaar te maken. In dit portfolio ligt de focus op het tonen van mijn werk rond 3D-ontwerp en fysieke modellering, als onderdeel van een breder creatief proces waarin experiment en verkenning centraal staan.</p>
+  </section>
+
+  <section id="skills" class="centered-section">
+    <h2>Programma's en Vaardigheden</h2>
+    <ul>
+      <li>Papierprototyping</li>
+      <li>Adobe Illustrator</li>
+      <li>Blender</li>
+      <li>TinkerCAD</li>
+      <li>FreeCAD</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projecten</h2>
+
+    <article>
+      <div class="image-row">
+        <a href="files/Images/CUBE 2 transparant.png" target="_blank">
+            <img src="files/Images/CUBE 2 transparant.png" alt="Papieren kubus foto 2">
+        </a>
+        <a href="files/Images/CUBE 1 transparant.png" target="_blank">
+            <img src="files/Images/CUBE 1 transparant.png" alt="Papieren kubus foto 1">
+        </a>
+      </div>
+      <h3>Papieren kubus (4x4x4 cm)</h3>
+      <p>Korte oefening in papierprototyping met beperkte tijd.</p>
+      <button onclick="toggleDetails('details1')">Meer info</button>
+      <div id="details1" class="details" style="display: none;">
+        <p>In deze oefening maakte ik binnen 30 minuten een papieren kubus van 4x4x4 cm uit een A4-blad. De uitdaging was om zo snel en efficiënt mogelijk een relatief stevige kubus te ontwerpen enkel met wat ik bij de hand had (papier en lijm). Dit was de basis voor latere projecten.</p>
+      </div>
+    </article>
+
+    <article>
+      <div class="image-row">
+        <a href="files/Images/CUBE Night Light A3 poster 2.png" target="_blank">
+            <img src="files/Images/CUBE Night Light A3 poster 2.png" alt="Kubus poster 2" class="p1Wider">
+        </a>
+      </div>
+      <h3>Cube Nachtlamp Design</h3>
+      <p>Een visuele poster met 3 variaties op het oorspronkelijke kubusidee.
+      <button onclick="toggleDetails('details2')">Meer info</button>
+      <div id="details2" class="details" style="display: none;">
+        <p>Deze presentatieposter toont drie varianten van een nachtlamp, gebaseerd op mijn papieren kubus. Elke variant heeft een eigen uitstraling en knopmechanisme:</p>
+        <ul>
+          <li><strong>Variant 1:</strong> Transparante kubus met interne rode LED. De aan/uit-knop bevindt zich bovenop en werkt zoals bij een smartphone (naar binnen drukken).</li>
+          <li><strong>Variant 2:</strong> Hartvormige LED-lampjes aan de voorkant. De knop bovenop is bol en doet denken aan een wekker.</li>
+          <li><strong>Variant 3:</strong> De LED is geplaatst op het bovenvlak van de kubus en schijnt recht omhoog. Het idee was dat het licht een vorm projecteert op het plafond. De fysieke schakelaar bevindt zich op het voorvlak.</li>
+        </ul>
+        <div class="image-row">
+            <a href="files/Images/Cube Night Light A3 illustrator.png" target="_blank">
+                <img src="files/Images/Cube Night Light A3 illustrator.png" alt="kubus poster illustrator" class="p1Wider">
+            </a>
+        </div>
+        <p>Ik startte vanuit een kleurpalet en maakte daarmee de eerste poster. Deze versie bleek echter te druk en visueel onrustig:</p>
+        <div class="image-row">
+          <a href="files/Images/CUBE Night Light A3 poster 1.png" target="_blank">
+              <img src="files/Images/CUBE Night Light A3 poster 1.png" alt="Kubus poster 1" class="p1Wider">
+          </a>
+          <a href="files/Images/CUBE color palette 1.png" target="_blank">
+              <img src="files/Images/CUBE color palette 1.png" alt="Kubus kleurpalet 1" class="cpWider">
+          </a>
+        </div>
+        <p>Daarna ben ik opnieuw begonnen met een eenvoudiger kleurenpalet en een verticaler formaat dat beter past bij het uiteindelijke doel: een bushalte-advertentie.</p>
+        <div class="image-row">
+          <a href="files/Images/CUBE Night Light A3 poster 2.png" target="_blank">
+              <img src="files/Images/CUBE Night Light A3 poster 2.png" alt="Kubus poster 2">
+          </a>
+          <a href="files/Images/CUBE color palette 2.png" target="_blank">
+              <img src="files/Images/CUBE color palette 2.png" alt="Kubus kleurpalet 2" class="cpWider">
+          </a>
+        </div>
+        <p>Het eindresultaat combineert visuele rust, duidelijkheid en een heldere presentatie van de verschillende varianten.</p>
+        <div class="download-links">
+          <a href="files/CubeNightLightPoster1HanneGladiné.pdf" download>Download de PDF-presentatie: poster 1</a>
+          <a href="files/CubeNightLightPoster2HanneGladiné.pdf" download>Download de PDF-presentatie: poster 2</a>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <img src="placeholder_billboard_render.jpg" alt="3D Billboard render">
+      <h3>3D Billboard Scène (Blender)</h3>
+      <p>Mijn eerste volledige 3D-render in een omgeving.</p>
+      <button onclick="toggleDetails('details3')">Meer info</button>
+      <div id="details3" class="details" style="display: none;">
+        <p>Een billboard gemonteerd in een 3D-straat. Gebruik gemaakt van texturen, verlichting en compositie in Blender. <br><a href="files/billboard-scene.blend" download>Download Blender-bestand</a></p>
+      </div>
+    </article>
+
+    <article>
+      <img src="placeholder_paper_billboard.jpg" alt="Papier billboard foto">
+      <h3>Papieren Prototype Billboard</h3>
+      <p>Uitgeprinte en geplooide versie van mijn 3D Billboard.</p>
+      <button onclick="toggleDetails('details4')">Meer info</button>
+      <div id="details4" class="details" style="display: none;">
+        <p>Gebaseerd op mijn Blender-render heb ik het model omgezet naar een papieren versie met texturen. <br><a href="files/billboard-model.pdf" download>Download PDF (printbaar model)</a></p>
+      </div>
+    </article>
+
+    <article>
+      <div class="image-row">
+        <a href="files/Images/TINKERCAD HarryPotter book1.png" target="_blank">
+            <img src="files/Images/TINKERCAD HarryPotter book1.png" alt="TINKERCAD Potter Magic Book model1" class="p1Wider">
+        </a>
+        <a href="files/Images/TINKERCAD HarryPotter book2.png" target="_blank">
+            <img src="files/Images/TINKERCAD HarryPotter book2.png" alt="TINKERCAD Potter Magic Book model2" class="p1Wider">
+        </a>
+      </div>
+      <h3>TinkerCAD ontwerpen</h3>
+      <p>TinkerCAD Harry Potter Magic Book</p>
+      <button onclick="toggleDetails('details5')">Meer info</button>
+      <div id="details5" class="details" style="display: none;">
+        <p>Voor het Harry Potter Magic Book model volgde ik een youtube tutorial.</p>
+        <div class="video-wrapper">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/mGkyFMLPrnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>Waar ik zeker veel mee geleerd heb. Ik ben zeker vooruitgegaan tegenover het "droomkasteel".</p>
+        <div class="image-row">
+            <a href="files/Images/TINKERCAD kasteel.png" target="_blank">
+                <img src="files/Images/TINKERCAD kasteel.png" alt="TINKERCAD Droomkasteel model" class="p1Wider">
+            </a>
+        </div>
+      </div>
+
+    </article>
+
+    <article>
+      <div class="image-row">
+        <a href="files/Images/FREECAD led houder2.png" target="_blank">
+            <img src="files/Images/FREECAD led houder2.png" alt="FREECAD LED houder model" class="p1Wider">
+        </a>
+        <a href="files/Images/FREECAD batterij houder1.png" target="_blank">
+            <img src="files/Images/FREECAD batterij houder1.png" alt="FREECAD batterij houder model" class="p1Wider">
+        </a>
+      </div>
+      <h3>FreeCAD component holders</h3>
+      <p>LED-houder en batterijhouder ontworpen in FreeCAD.</p>
+      <button onclick="toggleDetails('details6')">Meer info</button>
+      <div id="details6" class="details" style="display: none;">
+        <p>Ik maakte een LED houder en een batterij+connector houder in FreeCAD. Ik begon met beide modellen door eerst op papier wat te schetsen en maten op te schrijven om een beeld te krijgen van wat ik wilde doen en hoe ik hieraan zou moeten beginnen in een 3D modeling programma.</p>
+        <div class="image-row">
+          <a href="files/Images/FREECAD led houder schets.jpg" target="_blank">
+              <img src="files/Images/FREECAD led houder schets.jpg" alt="FREECAD LED houder schets" class="p1Wider">
+          </a>
+          <a href="files/Images/FREECAD batterij houder schets.jpg" target="_blank">
+              <img src="files/Images/FREECAD batterij houder schets.jpg" alt="FREECAD batterij houder schets" class="p1Wider">
+          </a>
+        </div>
+        <p>De LED-houder bestaat uit twee onderdelen die oorspronkelijk gewoon in elkaar zouden schuiven. Uiteindelijk heb ik ervoor gekozen om ze in elkaar te laten schroeven. Aan de onderkant bevinden zich twee gaten die ervoor zorgen dat de kathode en anode van de LED van elkaar gescheiden blijven, om kortsluiting te voorkomen.</p>
+        <div class="image-row">
+          <a href="files/Images/FREECAD led houder3.png" target="_blank">
+              <img src="files/Images/FREECAD led houder3.png" alt="FREECAD LED houder3" class="p1Wider">
+          </a>
+          <a href="files/Images/FREECAD led houder1.png" target="_blank">
+              <img src="files/Images/FREECAD led houder1.png" alt="FREECAD batterij houder onderkant" class="p1Wider">
+          </a>
+        </div>
+        <p>Bij de batterijhouder zit aan de zijkant een gleuf, zodat je de batterijconnector er gemakkelijk in kunt schuiven. Eén zijde bevat een inkeping waarin de connector stevig vastklikt, terwijl de batterij zelf er toch eenvoudig in en uit gehaald kan worden.</p>
+        <div class="image-row">
+          <a href="files/Images/FREECAD batterij houder1.png" target="_blank">
+              <img src="files/Images/FREECAD batterij houder1.png" alt="FREECAD batterij houder1" class="p1Wider">
+          </a>
+          <a href="files/Images/FREECAD batterij houder2.png" target="_blank">
+              <img src="files/Images/FREECAD batterij houder2.png" alt="FREECAD batterij houder2" class="p1Wider">
+          </a>
+        </div>
+        <div class="download-links">
+          <a href="files/FreecadLedHolderHanneGladiné.FCStd" download>Download FreeCAD LED holder</a>
+          <a href="files/FreecadBatteryHolderHanneGladiné.FCStd" download>Download FreeCAD battery holder</a>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <section id="prototyping">
+    <div class="image-row">
+          <a href="files/Images/PROTOTYPE3 fonky.png" target="_blank">
+              <img src="files/Images/PROTOTYPE3 fonky.png" alt="Prototype3 Fonky" class="p1Wider">
+          </a>
+          <a href="files/Images/Prototype3 winkelhaken.jpg" target="_blank">
+              <img src="files/Images/Prototype3 winkelhaken.jpg" alt="Prototype3 Fonky2" class="p1Wider">
+          </a>
+        </div>
+  <h2>Prototyping Project: Fonky</h2>
+
+  <p>"Fonky" is een slim sleuteldoosje gekoppeld aan een kapstok. Het herinnert je eraan om je sleutels niet te vergeten wanneer je je jas meeneemt. Hieronder zie je hoe dit project door verschillende iteraties tot stand kwam.</p>
+
+  <div class="proto-section">
+    <button onclick="toggleDetails('pitch')">Pitch & Idee</button>
+    <div id="pitch" class="details" style="display: none;">
+      <p>De originele pitch ontstond vanuit een herkenbaar probleem: sleutels vergeten. Onze oplossing was een doosje onder een kapstok dat open- en dichtgaat afhankelijk van of er een jas aanhangt. Dit activeert ook een LED en geluidssignaal bij vergeten sleutels.</p>
+      <div class="image-row">
+          <a href="files/Images/PITCH schets1.png" target="_blank">
+              <img src="files/Images/PITCH schets1.png" alt="Pitch schets 1" class="p1Wider">
+          </a>
+          <a href="files/Images/PITCH schets2.png" target="_blank">
+              <img src="files/Images/PITCH schets2.png" alt="pitch schets 2" class="p1Wider">
+          </a>
+        </div>
+      <p><strong>Feedback:</strong> We kregen suggesties om het systeem ook bruikbaar te maken voor andere objecten, zoals zonnebrillen of portefeuilles.</p>
+      <p><strong>Technische insteek:</strong> We wilden een kantelsensor gebruiken, maar schakelden later over naar een photoresistor wegens hardwareproblemen.</p>
+    </div>
+  </div>
+
+  <div class="proto-section">
+    <button onclick="toggleDetails('proto1')">Prototype 1</button>
+    <div id="proto1" class="details" style="display: none;">
+      <p>Een kleine MDF-doos, 45mm x 45mm x 45mm, gemaakt met MakerCase. Hierin testte we onze servomotor, Led, en buzzer codes en testten we of de servomotor de deur zou kunnen open duwen.</p>
+      <div class="image-row">
+          <a href="files/Images/PROTOTYPE1.jpg" target="_blank">
+              <img src="files/Images/PROTOTYPE1.jpg" alt="Prototype 1" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE1 motor.jpg" target="_blank">
+              <img src="files/Images/PROTOTYPE1 motor.jpg" alt="Prototype 1 motor" class="p1Wider">
+          </a>
+        </div>
+      <ul>
+        <li><strong>Probleem:</strong> De doos paste niet mooi in elkaar door verkeerde wanddikte — volgende keren hielden we hier rekening mee.</li>
+        <li><strong>Probleem:</strong> Arduino paste niet — opnieuw meten en berekenen.</li>
+        <li><strong>Keuzes:</strong> Magneten gebruikt voor sluiting, servo voor openen, LED en buzzer toegevoegd.</li>
+      </ul>
+      <p><strong>Wat we leerden:</strong> We leerden omgaan met lasercut-afmetingen, Arduino-koppelingen testen, en ontdekten hoe belangrijk interne ruimte is bij fysieke prototypes.</p>
+      <div class="video-wrapper">
+      <iframe width="914" height="514" src="https://www.youtube.com/embed/cYszWWLrurY" title="Propellor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="914" height="514" src="https://www.youtube.com/embed/8qOdnWsWEpI" title="Prototype1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="proto-section">
+    <button onclick="toggleDetails('proto2')">Prototype 2</button>
+    <div id="proto2" class="details" style="display: none;">
+      <p>Groter MDF-model met compartimenten voor elektronica en objecten. We hadden een 3d model online gevonden voor de kapstok zelf en het knop systeem werkte. Servomotor en buzzer werkten, kantelsensor bleef onbetrouwbaar.  We wilden hier toch nog proberen om een veer aan het deksel te hangen die een knop induwt wanneer de doos dicht is om zo te weten wanneer het signaal moet starten in plaats van een tilt sensor.</p>
+      <div class="image-row">
+          <a href="files/Images/PROTOTYPE2 kapstok.jpg" target="_blank">
+              <img src="files/Images/PROTOTYPE2 kapstok.jpg" alt="Prototype 2 kapstop" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE2 magneten.jpg" target="_blank">
+              <img src="files/Images/PROTOTYPE2 magneten.jpg" alt="Prototype 2 magneten" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE2 veer.jpg" target="_blank">
+              <img src="files/Images/PROTOTYPE2 veer.jpg" alt="Prototype 2 veer" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE2 te kleine bovenkant.jpg" target="_blank">
+              <img src="files/Images/PROTOTYPE2 te kleine bovenkant.jpg" alt="Prototype2 met te klein deksel" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE2 fonky.png" target="_blank">
+              <img src="files/Images/PROTOTYPE2 fonky.png" alt="Prototype2 fonky" class="p1Wider">
+          </a>
+        </div>
+      <ul>
+        <li><strong>Probleem:</strong> Kapstok activeerde knop niet goed — code herschreven zodat het werkte bij loslaten van de knop.</li>
+        <li><strong>Probleem:</strong> Te sterke magneten — vervangen door correct type van Action.</li>
+        <li><strong>Probleem:</strong> veer -> knop systeem te omslachtig — tiltsensor gebruiken</li>
+        <li><strong>Probleem:</strong> Deksel grootte verkeer berekend — opnieuw meten en lasercutten.</li>
+        <li><strong>Probleem:</strong> Kantelsensor bleef falen — vervangen door photoresistor.</li>
+      </ul>
+      <p><strong>Wat we leerden:</strong> Alternatieve sensoren gebruiken bij hardwareproblemen. Iteratief testen van de behuizing en werking.</p>
+    </div>
+  </div>
+
+  <div class="proto-section">
+    <button onclick="toggleDetails('final')">Eindproduct</button>
+    <div id="final" class="details" style="display: none;">
+      <p>Een houten doos (geolied MDF) met verborgen elektronica en zwarte afwerking. Als je je jas eraan hangt gaat het deurtje open zodat je je sleutels erin kan steken en wanneer je een jas wegneemt, opent het doosje weer en activeert de photoresister een LED en buzzer (melodie: Take On Me) als geheugensteuntje. We hebben moeten testen hoe we de lasercutter moesten instellen om de juiste graveer diekten te hebben voor onze magneet en phototransistor.</p>
+      <ul>
+        <div class="image-row">
+          <a href="files/Images/PROTOTYPE3 graveren.jpg" target="_blank">
+              <img src="files/Images/PROTOTYPE3 graveren.jpg" alt="Prototype3 graveren" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE3 lasecuting.png" target="_blank">
+              <img src="files/Images/PROTOTYPE3 lasecuting.png" alt="PROTOTYPE3 lasercutting" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE3 solderen.png" target="_blank">
+              <img src="files/Images/PROTOTYPE3 solderen.png" alt="PROTOTYPE3 solderen" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE3 schilderen.jpg" target="_blank">
+              <img src="files/Images/PROTOTYPE3 schilderen.jpg" alt="PROTOTYPE3 schilderen" class="p1Wider">
+          </a>
+          <a href="files/Images/Prototype3 winkelhaken.jpg" target="_blank">
+              <img src="files/Images/Prototype3 winkelhaken.jpg" alt="PROTOTYPE3 winkelhaken" class="p1Wider">
+          </a>
+          <a href="files/Images/PROTOTYPE3 fonky.png" target="_blank">
+              <img src="files/Images/PROTOTYPE3 fonky.png" alt="PROTOTYPE3 fonky" class="p1Wider">
+          </a>
+        </div>
+        <div class="video-wrapper">
+            <iframe width="356" height="634" src="https://www.youtube.com/embed/YXhLJAEpvyM" 
+                title="Fonky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+        <li><strong>
+            Probleem:</strong> We konden niet zomaar vijzen in deze doos, wat we eigenlijk wel wisten maar nog niet echt over hadden nagedacht — opgelost met winkelhaken.
+        </li>
+      </ul>
+      <p><strong>Reflectie:</strong></p>
+      <ul>
+        <li>Het loont om snel low-fidelity versies te testen vooraleer in detail te werken.</li>
+        <li>Hardwareproblemen zijn onvermijdelijk, het is belangrijk om flexibel te blijven en oplossingen te zoeken.</li>
+        <li>De samenwerking en iteratiecycli gaven een realistischer beeld van hoe prototypes in de praktijk evolueren.</li>
+      </ul>
+      <p><strong>Demonstratie:</strong></p>
+      <div class="video-wrapper">
+      <iframe width="356" height="634" src="https://www.youtube.com/embed/gGhdQ_d7Z_s" title="Why you need Fonky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Wil je meer weten? Mail me op: <a href="mailto:hanne.gladine@student.kdg.be">hanne.gladine@student.kdg.be</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hanne Gladiné | Portfolio</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
